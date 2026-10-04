@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "omarkyy.tablet",
+  "name": "Omarchy Touch Mode",
+  "version": "1.0.0",
+  "author": "alertxsto",
+  "license": "MIT",
+  "description": "Tablet mode, a floating resizable on-screen keyboard, and accelerometer auto-rotation for Omarchy.",
+  "kinds": ["service", "bar-widget"],
+  "entryPoints": {"service": "Service.qml", "barWidget": "BarWidget.qml"},
+  "barWidget": {"displayName": "Omarchy Touch Mode", "category": "Input", "allowMultiple": false, "defaultSection": "right"}
+}
